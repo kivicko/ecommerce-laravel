@@ -24,11 +24,11 @@
         <div id="wrapper">
             <header>
                 <section id="top-area">
-                    <p>Phone orders: 1-800-0000 | Email us: <a href="mailto:office@shop.com">office@shop.com</a></p>
+                    <p>Phone orders: 1-800-0000 | Email us: <a href="mailto:office@ecomm.com">office@ecomm.com</a></p>
                 </section><!-- end top-area -->
                 <section id="action-bar">
                     <div id="logo">
-                        <a href="/"><span id="logo-accent">e</span>Commerce</a>
+                        <a href="/"><span id="logo-accent">e</span>Comm</a>
                     </div><!-- end logo -->
 
                     <nav class="dropdown">
@@ -85,7 +85,7 @@
                     </div><!-- end user-menu -->
 
                     <div id="view-cart">
-                        <a href="store/cart"">{{HTML::image('img/blue-cart.gif','View Cart')}} View Cart</a>
+                        <a href="/store/cart">{{HTML::image('img/blue-cart.gif','View Cart')}} View Cart</a>
                     </div><!-- end view-cart -->
                 </section><!-- end action-bar -->
             </header>
@@ -121,7 +121,7 @@
                         <ul>
                             <li>{{ HTML::link('users/signin', 'Sign In') }}</li>
                             <li>{{ HTML::link('users/newaccount', 'Sign Up') }}</li>
-                            <li><a href="store/cart">Shopping Cart</a></li>
+                            <li><a href="/store/cart">Shopping Cart</a></li>
                         </ul>
                     </div><!-- end my-account -->
                     <div id="info">

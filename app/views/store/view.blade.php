@@ -12,14 +12,16 @@
         <hr />
 
         {{ Form::open(array('url'=>'store/addtocart')) }}
+
+            {{ Form::hidden('id', $product->id) }}
+            @if($product->availability == "1")
             {{ Form::label('quantity', 'Qty') }}
             {{ Form::text('quantity', 1, array('maxlength'=>2)) }}
-            {{ Form::hidden('id', $product->id) }}
-
-            <button type="submit" class="secondary-cart-btn">
-                {{ HTML::image('img/white-cart.gif', 'Add to Cart') }}
-                 ADD TO CART
-            </button>
+                <button type="submit" class="secondary-cart-btn">
+                    {{ HTML::image('img/white-cart.gif', 'Add to Cart') }}
+                     ADD TO CART
+                </button>
+            @endif
         {{ Form::close() }}
     </div><!-- end product-details -->
     <div id="product-info">

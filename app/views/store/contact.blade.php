@@ -11,7 +11,7 @@
         <p>We are located at:</p>
 
         <p>
-            <span>eCommerce</span><br />
+            <span>eComm</span><br />
             123 Main Street<br />
             Suite A<br />
             Los Angeles, CA 90014
@@ -19,7 +19,7 @@
 
         <p>For customer service please call us: <span>1-800-8888</span></p>
 
-        <p>Alternatively, you can contact <a href="mailto:support@shop.com">customer service by email</a>.</p>
+        <p>Alternatively, you can contact <a href="mailto:support@ecomm.com">customer service by email</a>.</p>
 
         <hr />
 
